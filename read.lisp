@@ -152,7 +152,7 @@ corresponding alist of names and values where the names are
 keywords and the values are strings.  Multiple lines with the
 same name are combined into one value, the individual values
 separated by commas.  Header lines which are spread across
-multiple lines are recognized and treated correctly.  Additonally
+multiple lines are recognized and treated correctly.  Additionally
 logs the header lines to LOG-STREAM if it is not NIL."
   (let (headers
         (*current-error-message* "While reading HTTP headers:"))
